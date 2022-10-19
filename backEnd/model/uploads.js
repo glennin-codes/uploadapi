@@ -16,4 +16,6 @@ import mongoose from "mongoose";
      }
 
   })
-  export default uploads=mongoose.model('uploads',uploadsSchema);
+  const  uploads=mongoose.model('uploads',uploadsSchema);
+
+  export default uploads;
